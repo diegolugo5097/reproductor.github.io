@@ -57,8 +57,7 @@ play.onclick = function () {
 audio.addEventListener(
   "pause",
   function () {
-    play.innerHTML =
-      '<img class="pad" src="http://abarcarodriguez.com/lab/play.png" />';
+    play.innerHTML = '<img class="pad" src="../imagenes/play.png" />';
     playing = false;
   },
   false
@@ -67,7 +66,7 @@ audio.addEventListener(
 audio.addEventListener(
   "playing",
   function () {
-    play.innerHTML = '<img src="http://abarcarodriguez.com/lab/pause.png" />';
+    play.innerHTML = '<img class="pad" src="../imagenes/pause.png" />';
     playing = true;
   },
   false
