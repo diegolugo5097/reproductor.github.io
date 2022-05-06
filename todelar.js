@@ -12,8 +12,8 @@ var song, audio, duration;
 var playing = false;
 var songs = [
   {
-    title: "Todelar",
-    artist: "La Radio",
+    title: "",
+    artist: "",
     url: "../audios/todelar.mp3",
     art: "../imagenes/todelar.jpg",
   },

@@ -12,8 +12,8 @@ var song, audio, duration;
 var playing = false;
 var songs = [
   {
-    title: "Kaliman",
-    artist: "El hombre increible",
+    title: "",
+    artist: "",
     url: "../audios/ARANDU.mp3",
     art: "../imagenes/arandu.jpg",
   },
