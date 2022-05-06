@@ -46,7 +46,7 @@
   }
 
 body {
-    background-image: url(./imagenes/Sony-PS-LX310BT-Full.jpg);
+    background-image: url(./imagenes/tocadiscos.jpeg);
     background-repeat: no-repeat;
     background-size: 83% 40%;
     background-position: 74% 49%;
@@ -57,7 +57,8 @@ body {
     width: 400px;
     height: 400px;
     position: relative;
-    top: 50%; left: 50%;
+    top: 45%;
+    left: 44%;
     margin-left: -200px;
     margin-top: -200px;
     border-radius: 50%;
@@ -85,7 +86,7 @@ body {
     left: 0;
     width: 400px;
     height: 115px;
-    background-color: #FFF;
+    background-color: transparent;
 }
 #player .info .cont {
     text-align: center;
@@ -112,7 +113,7 @@ body {
     width: 366px;
     height: 5px;
     position: absolute;
-    background-color: #A6A7A9;
+    background-color: transparent;
     bottom: 115px;
     left: 17px;
     z-index: 10;
@@ -139,14 +140,14 @@ body {
     z-index: 5;
 }
 .nav {
-    width: 50px;
-    height: 50px;
+    width: 40%;
+    height: 40%;
     vertical-align: top;
     background-color: #FFF;
     border: 2px solid #00CC99;
     border-radius: 50%;
     outline: none;
-    margin: 0 7px;
+    margin: 29% 37%;
     cursor: pointer;
 }
 .nav:hover {
