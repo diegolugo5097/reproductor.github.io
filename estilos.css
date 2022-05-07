@@ -170,13 +170,13 @@ body {
     vertical-align: middle;
 }
 
-.spiderman {
+img.spiderman {
     width: 100%;
     position: absolute;
     margin: 108% -50%;
 }
 
-.spiderman2 {
+img.spiderman2 {
     width: 978px;
     position: absolute;
     margin: 35% -58%;
