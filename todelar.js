@@ -10,10 +10,11 @@ var art = document.getElementById("art");
 var current_track = 0;
 var song, audio, duration;
 var playing = false;
+
 var songs = [
   {
-    title: "",
-    artist: "",
+    title: "Todelar",
+    artist: "La ley contra el hampa",
     url: "../audios/TODELAR LA LEY CONTRA EL HAMPA.mp3",
     art: "../imagenes/todelar.jpg",
   },
@@ -71,6 +72,7 @@ audio.addEventListener(
   },
   false
 );
+
 next.addEventListener("click", nextTrack, false);
 prev.addEventListener("click", prevTrack, false);
 

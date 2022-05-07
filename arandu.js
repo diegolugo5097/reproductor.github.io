@@ -12,8 +12,8 @@ var song, audio, duration;
 var playing = false;
 var songs = [
   {
-    title: "",
-    artist: "",
+    title: "Arandu",
+    artist: "El principe de la selva",
     url: "../audios/ARANDU.mp3",
     art: "../imagenes/arandu.jpg",
   },
