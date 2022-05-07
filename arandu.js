@@ -66,7 +66,7 @@ audio.addEventListener(
 audio.addEventListener(
   "playing",
   function () {
-    play.innerHTML = '<img class="pad" src="../imagenes/play.png" />';
+    play.innerHTML = '<img class="pad" src="../imagenes/pause.png" />';
     playing = true;
   },
   false
