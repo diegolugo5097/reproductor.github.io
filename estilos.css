@@ -95,9 +95,9 @@ body {
   padding-top: 25px;
 }
 #player .trackinfo {
-  position: absolute;
-  bottom: 135px;
   color: #fff;
+  position: absolute;
+  margin: -297% -165%;
 }
 #player .trackinfo p {
   text-shadow: 0px 0px 5px #333;
@@ -146,20 +146,20 @@ body {
 }
 
 .salir {
-  width: 18%;
+  width: 15%;
   height: 15%;
   position: absolute;
-  margin: 18% 53%;
+  margin: 28% 55%;
 }
 
 .nav {
-  height: 20%;
+  height: 50%;
   position: absolute;
   background-color: transparent;
   border: 2px solid transparent;
   border-radius: 50%;
   outline: none;
-  margin: 0% 14%;
+  margin: 66% -43%;
 }
 .nav:hover {
   background-color: transparent;
@@ -189,6 +189,12 @@ img.spiderman2 {
 
 #fondo {
   background-image: url("./imagenes/tocadiscos.webp");
-  background-size: 50% 100%;
+  background-size: 47% 100%;
   background-position: center;
+}
+
+#art {
+  width: 121%;
+  position: relative;
+  margin: -24% -6%;
 }
